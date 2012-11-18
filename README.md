@@ -4,5 +4,26 @@ JustGage is a handy JavaScript plugin for generating and animating nice &amp; cl
 
 Checkout http://justgage.com for details, demos, current release and more.
 
+## Usage
 
-Rails gem based on [raphael-rails](https://github.com/campreb/raphael-rails)
+In your Gemfile, add:
+
+```ruby
+gem 'justgage-rails'
+```
+
+## Require Javascript
+
+Add the following to your application.js:
+
+```javascript
+//= require raphael
+//= require justgage
+```
+
+
+## Credits
+
+[JustGage](https://github.com/toorshia/justgage) by [Bojan Djuricic](https://github.com/toorshia/)
+
+Rails gem modeled after [raphael-rails](https://github.com/campreb/raphael-rails) by [Cameron Prebble](https://github.com/campreb)
