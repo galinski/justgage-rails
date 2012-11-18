@@ -14,5 +14,5 @@ Gem::Specification.new do |s|
 
   s.files = %w(README.md LICENSE Rakefile Gemfile) + Dir['lib/**/*', 'vendor/**/*']
 
-  s.add_runtime_dependency "raphael-rails"
+  s.add_runtime_dependency "raphael-rails", ">= 2.1"
 end
