@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.summary     = %q{JustGage JS as a Rubygem}
   s.description = %q{JustGage JS as a Rubygem for use in the Rails asset pipeline}
 
-  s.files = %w(README.md license.txt Rakefile Gemfile) + Dir['lib/**/*', 'vendor/**/*']
+  s.files = %w(README.md LICENSE Rakefile Gemfile) + Dir['lib/**/*', 'vendor/**/*']
 
   s.add_runtime_dependency "raphael-rails"
 end
